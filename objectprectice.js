@@ -175,15 +175,121 @@
 
 // node objectprectice.js//
 
-let footballplayer = {
-    topplayer: "Lionel Messi",
-    secondplayer: "Cristiano Runaldo",
-    therdplayer: "Kylian Mbappé",
-    fourplayer: "Erling Haaland",
-    fiveplayer: "Jr Neymar"
+// let footballplayer = {
+//     topplayer: "Lionel Messi",
+//     secondplayer: "Cristiano Runaldo",
+//     therdplayer: "Kylian Mbappé",
+//     fourplayer: "Erling Haaland",
+//     fiveplayer: "Jr Neymar"
+// }
+// let bestplayer = footballplayer.topplayer;
+
+// console.log("Amr Onek valo lage",bestplayer,"ei player ke");
+
+
+// let food = {
+//     apple: 1,
+//     malta: 21,
+//     orange: 3,
+//     benna: 1.5,
+//     jambura: 2,
+//     nam: ["khalek", "malek", "kader"],
+//     person: "azmir khan",
+//     devloper: {
+//         time: "8hr per day",
+//         skils: "perfect",
+//         professional: true,
+//         selary: 23000
+//     },
+
+//     bestplayerftheword: "Leonel Messi"
+// }
+
+// node objectprectice.js//
+// console.log(food.professional);
+// console.log(food["jambura"]);
+//   console.log(food.nam[2])
+
+// let experiance = food.devloper.skils;
+// console.log(experiance);
+
+
+// second...////////////////,,,,,,,,,,,,,,,,/
+
+
+// node objectprectice.js//
+
+let food = {
+    apple: 1,
+    malta: 21,
+    orange: 3,
+    benna: 1.5,
+    jambura: 2,
+    nam: ["khalek", "malek", "kader"],
+    person: "azmir khan",
+    devloper: {
+        time: "8hr per day",
+        skils: "perfect",
+        professional: true,
+        selary: 23000
+    },
+
+    bestplayerftheword: "Leonel Messi"
 }
-let bestplayer = footballplayer.topplayer;
 
-console.log("Amr Onek valo lage",bestplayer,"ei player ke");
+// node objectprectice.js//
+// let change = food.nam[2].replace("kader" ,"Asif" )
+//  console.log(change);
+
+//   let upselary = food.devloper.selary = 26000;
+//   console.log(food.devloper);
+
+// let namchane = food.nam = ["samir","sabbir","subo","shanto"];
+// console.log(food.nam);
 
 
+// node objectprectice.js//
+
+// let mobile = {
+//     name: "Oppo",
+//     high: 6,
+//     cemara: "66mpx",
+//     price: 2999,
+//     model: "Oppo FA 57"
+// }
+
+
+// let ki = Object.keys(mobile);
+// console.log(ki);
+
+
+
+// node objectprectice.js//
+
+// let mobile = {
+//     name: "Oppo",
+//     high: 6,
+//     cemara: "66mpx",
+//     price: 2999,
+//     model: "Oppo FA 57"
+// }
+
+//  mobile.price = 23999;
+// let val = Object.values(mobile);
+// console.log(val);
+
+
+
+// node objectprectice.js//
+
+let mobile = {
+    name: "Oppo",
+    high: 6,
+    cemara: "66mpx",
+    price: 2999,
+    model: "Oppo FA 57"
+}
+
+for (let key in mobile) {
+    console.log(key, ":", mobile[key], "|");
+}

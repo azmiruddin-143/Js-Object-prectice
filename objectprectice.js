@@ -282,14 +282,14 @@ let food = {
 
 // node objectprectice.js//
 
-let mobile = {
-    name: "Oppo",
-    high: 6,
-    cemara: "66mpx",
-    price: 2999,
-    model: "Oppo FA 57"
-}
+// let mobile = {
+//     name: "Oppo",
+//     high: 6,
+//     cemara: "66mpx",
+//     price: 2999,
+//     model: "Oppo FA 57"
+// }
 
-for (let key in mobile) {
-    console.log(key, ":", mobile[key], "|");
-}
+// for (let key in mobile) {
+//     console.log(key, ":", mobile[key], "|");
+// }
